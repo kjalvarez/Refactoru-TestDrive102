@@ -10,4 +10,3 @@ var join = function(arr, delimeter) {
  return output;
 };
 
-console.log(join(['one', 'two', 'three'], 'and'))

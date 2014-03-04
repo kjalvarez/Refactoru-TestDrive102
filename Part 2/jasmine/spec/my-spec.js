@@ -3,9 +3,6 @@
 //     expect(true).toEqual(false);
 //   });
 // });
-var testArray = [{name: "Karin"}, {name: "Joe"}, {name: "Dre"}]
-console.log(testArray);
-console.log(join(testArray, 'or'))
 
 describe("Join", function() {
 	it("should join strings in an array with a delimeter", function() {
@@ -20,8 +17,5 @@ describe("Join", function() {
 		expect(join([], 'and')).toEqual('')
 	});
 
-	it("should join objects in an array with a delimeter", function() {
-		expect(join(testArray, 'or')).toEqual('[object Object]or[object Object]or[object Object]or')
-	})
 
 })
